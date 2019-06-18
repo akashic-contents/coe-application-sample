@@ -1,0 +1,29 @@
+{
+  "name": "@akashic-contents/coe-application-sample",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "./script/main.js",
+  "scripts": {
+    "build": "rimraf ./script && npm run compile && akashic-cli-scan globalScripts",
+    "compile": "tsc",
+    "update": "akashic-cli-scan asset && akashic-cli-scan globalScripts",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "akashic-sandbox .",
+    "test": "npm run lint"
+  },
+  "author": "DWANGO Co., Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "@akashic-extension/coe": "~1.0.0"
+  },
+  "devDependencies": {
+    "@akashic/akashic-cli-scan": "~0.2.12",
+    "@akashic/akashic-engine": "~2.4.14",
+    "@akashic/akashic-sandbox": "~0.13.61",
+    "@types/node": "12.0.1",
+    "rimraf": "~2.6.3",
+    "tslint": "~5.16.0",
+    "typescript": "~3.4.5"
+  }
+}

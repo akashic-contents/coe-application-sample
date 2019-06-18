@@ -1,0 +1,39 @@
+{
+	"width": 800,
+	"height": 450,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"EnqueteController": {
+			"type": "script",
+			"path": "script/EnqueteController.js",
+			"global": true
+		},
+		"EnqueteScene": {
+			"type": "script",
+			"path": "script/EnqueteScene.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/coe/lib/SceneWatcher.js",
+		"node_modules/@akashic-extension/coe/lib/global.js",
+		"node_modules/@akashic-extension/coe/lib/impl/BaseController.js",
+		"node_modules/@akashic-extension/coe/lib/impl/COEController.js",
+		"node_modules/@akashic-extension/coe/lib/impl/COEMessageEventHandler.js",
+		"node_modules/@akashic-extension/coe/lib/impl/Scene.js",
+		"node_modules/@akashic-extension/coe/lib/impl/index.js",
+		"node_modules/@akashic-extension/coe/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/coe": "node_modules/@akashic-extension/coe/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "2"
+	}
+}
