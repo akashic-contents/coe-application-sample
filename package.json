@@ -15,15 +15,15 @@
   "author": "DWANGO Co., Ltd.",
   "license": "MIT",
   "dependencies": {
-    "@akashic-extension/coe": "~1.0.0"
+    "@akashic-extension/coe": "file:../coe/packages/coe/akashic-extension-coe-2.0.0-beta.0.tgz"
   },
   "devDependencies": {
-    "@akashic/akashic-cli-scan": "~0.2.12",
-    "@akashic/akashic-engine": "~2.4.14",
-    "@akashic/akashic-sandbox": "~0.15.19",
-    "@types/node": "12.0.1",
-    "rimraf": "~2.6.3",
-    "tslint": "~5.16.0",
-    "typescript": "~3.4.5"
+    "@akashic/akashic-cli-scan": "~0.5.5",
+    "@akashic/akashic-engine": "~3.0.0-beta.22",
+    "@akashic/akashic-sandbox": "~0.16.10",
+    "@types/node": "14.0.5",
+    "rimraf": "~3.0.2",
+    "tslint": "~6.1.2",
+    "typescript": "~3.9.3"
   }
 }

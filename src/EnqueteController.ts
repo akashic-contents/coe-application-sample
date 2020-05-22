@@ -22,7 +22,7 @@ export enum EnqueteCommandType {
  */
 export enum EnqueteActionType {
 	/**
-	 * 設問への投票。
+	 * 設問への投票
 	 */
 	Vote = "enquete_vote"
 }
