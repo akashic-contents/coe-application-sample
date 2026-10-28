@@ -26,6 +26,9 @@
     "tslint": "~5.16.0",
     "typescript": "~3.4.5"
   },
+  "allowScripts": {
+    "ejs@2.7.4": false
+  },
   "devEngines": {
     "packageManager": {
       "name": "npm",
